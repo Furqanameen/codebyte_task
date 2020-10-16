@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+Task 1
+You are to write a migration for users table to add new columns `first_name, last_name, job_title, birth_date`. All but `birth_date` is a datetime column which
+Task 2
