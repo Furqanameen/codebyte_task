@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Codebyte:</strong>
+  <%= @user.codebyte %>
+  <td><%= @user.first_name %></td>
+  <td><%= @user.last_name %></td>
+  <td><%= @user.job_title %></td>
+  <td><%= @user.birth_date %></td>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
